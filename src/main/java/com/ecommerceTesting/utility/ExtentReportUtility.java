@@ -28,7 +28,7 @@ public class ExtentReportUtility {
         extent.setSystemInfo("Tester", "Nikhil Bhosale");
         extent.setSystemInfo("Browser", "Chrome");
 
-		return extent;
+		return extent; 
 	}
 	
  
