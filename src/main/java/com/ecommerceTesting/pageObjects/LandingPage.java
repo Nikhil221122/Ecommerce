@@ -37,7 +37,7 @@ public class LandingPage {
 	WebElement  productsBtn;
 	 
 	@FindBy(xpath = "//a[contains(text(), 'Cart')]")
-	WebElement cartBtn;
+	WebElement cartBtn; 
 	
 	@FindBy(css = ".single-widget h2")
 	WebElement  subscriptionTxt;
