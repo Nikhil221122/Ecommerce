@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.ecommerceTesting.utility.WaitUtil;
+
 public class ProductsPage{
 
 	WebDriver driver;
@@ -68,6 +70,7 @@ public class ProductsPage{
 	}
 
 	public void addToCart(String productName) {
+		WaitUtil.waitForElementToBeVisible(driver, addToCartBtn);
 		WebElement prodName = getProductByName(productName);
 		prodName.findElement(addToCartBtn).click();
 	}
