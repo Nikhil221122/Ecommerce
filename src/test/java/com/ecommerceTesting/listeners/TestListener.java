@@ -9,6 +9,7 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.ecommerceTesting.utility.ExtentReportUtility;
 import com.ecommerceTesting.utility.ScreenshotUtility;
 
@@ -22,11 +23,14 @@ public class TestListener implements ITestListener {
 		
 
 		test = extent.createTest(result.getMethod().getMethodName());
+		test.log(Status.INFO, "Test Started: " + result.getMethod().getMethodName());
 		ITestListener.super.onTestStart(result);
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
+		test.log(Status.PASS, "Test Passed ✅");
+        test.log(Status.INFO, "Execution Time: " + (result.getEndMillis() - result.getStartMillis()) + " ms");
 
 		ITestListener.super.onTestSuccess(result);
 	}
@@ -55,7 +59,8 @@ public class TestListener implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		test.log(Status.SKIP, "Test Skipped ⏭ - " + result.getThrowable().getMessage());
+
 		ITestListener.super.onTestSkipped(result);
 	}
 

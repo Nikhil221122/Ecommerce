@@ -1,117 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T12:13:55 IST" name="Suite" finished-at="2025-03-13T12:15:01 IST" duration-ms="65315">
+  <suite started-at="2025-03-13T12:58:33 IST" name="Suite" finished-at="2025-03-13T13:00:16 IST" duration-ms="103524">
     <groups>
     </groups>
-    <test started-at="2025-03-13T12:13:55 IST" name="ContactUsTest" finished-at="2025-03-13T12:14:20 IST" duration-ms="24116">
-      <class name="com.ecommerceTesting.tests.ContactUsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.ContactUsTest@2f666ebb]" started-at="2025-03-13T12:13:56 IST" name="setup" finished-at="2025-03-13T12:14:01 IST" duration-ms="5288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testContactUs()[pri:0, instance:com.ecommerceTesting.tests.ContactUsTest@2f666ebb]" started-at="2025-03-13T12:14:01 IST" name="testContactUs" finished-at="2025-03-13T12:14:19 IST" duration-ms="18347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testContactUs -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.ContactUsTest@2f666ebb]" started-at="2025-03-13T12:14:19 IST" name="teardown" finished-at="2025-03-13T12:14:20 IST" duration-ms="407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ecommerceTesting.tests.ContactUsTest -->
-    </test> <!-- ContactUsTest -->
-    <test started-at="2025-03-13T12:13:55 IST" name="LandingPageTest" finished-at="2025-03-13T12:14:18 IST" duration-ms="22790">
+    <test started-at="2025-03-13T12:58:33 IST" name="LandingPageTest" finished-at="2025-03-13T12:58:57 IST" duration-ms="24620">
       <class name="com.ecommerceTesting.tests.LandingPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@74f6c5d8]" started-at="2025-03-13T12:13:56 IST" name="setup" finished-at="2025-03-13T12:14:09 IST" duration-ms="13303" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@791d1f8b]" started-at="2025-03-13T12:58:33 IST" name="setup" finished-at="2025-03-13T12:58:45 IST" duration-ms="12855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testHomePageVisible()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@74f6c5d8]" started-at="2025-03-13T12:14:09 IST" name="testHomePageVisible" finished-at="2025-03-13T12:14:09 IST" duration-ms="313" status="PASS">
+        <test-method signature="testHomePageVisible()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@791d1f8b]" started-at="2025-03-13T12:58:45 IST" name="testHomePageVisible" finished-at="2025-03-13T12:58:47 IST" duration-ms="1548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageVisible -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@74f6c5d8]" started-at="2025-03-13T12:14:09 IST" name="teardown" finished-at="2025-03-13T12:14:10 IST" duration-ms="1158" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@791d1f8b]" started-at="2025-03-13T12:58:47 IST" name="teardown" finished-at="2025-03-13T12:58:48 IST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@74f6c5d8]" started-at="2025-03-13T12:14:10 IST" name="setup" finished-at="2025-03-13T12:14:15 IST" duration-ms="5159" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@791d1f8b]" started-at="2025-03-13T12:58:48 IST" name="setup" finished-at="2025-03-13T12:58:55 IST" duration-ms="6680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSubscription()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@74f6c5d8]" started-at="2025-03-13T12:14:15 IST" name="testSubscription" finished-at="2025-03-13T12:14:17 IST" duration-ms="1797" status="PASS">
+        <test-method signature="testSubscription()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@791d1f8b]" started-at="2025-03-13T12:58:55 IST" name="testSubscription" finished-at="2025-03-13T12:58:56 IST" duration-ms="1660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubscription -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@74f6c5d8]" started-at="2025-03-13T12:14:17 IST" name="teardown" finished-at="2025-03-13T12:14:18 IST" duration-ms="977" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LandingPageTest@791d1f8b]" started-at="2025-03-13T12:58:56 IST" name="teardown" finished-at="2025-03-13T12:58:57 IST" duration-ms="948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ecommerceTesting.tests.LandingPageTest -->
     </test> <!-- LandingPageTest -->
-    <test started-at="2025-03-13T12:13:55 IST" name="ProductTest" finished-at="2025-03-13T12:14:34 IST" duration-ms="38611">
-      <class name="com.ecommerceTesting.tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@2dc9b0f5]" started-at="2025-03-13T12:13:56 IST" name="setup" finished-at="2025-03-13T12:14:08 IST" duration-ms="12168" status="PASS">
+    <test started-at="2025-03-13T12:58:33 IST" name="ContactUsTest" finished-at="2025-03-13T12:59:01 IST" duration-ms="28054">
+      <class name="com.ecommerceTesting.tests.ContactUsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.ContactUsTest@2dc9b0f5]" started-at="2025-03-13T12:58:33 IST" name="setup" finished-at="2025-03-13T12:58:40 IST" duration-ms="7472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductDetails()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@2dc9b0f5]" started-at="2025-03-13T12:14:08 IST" name="verifyProductDetails" finished-at="2025-03-13T12:14:22 IST" duration-ms="14392" status="PASS">
+        <test-method signature="testContactUs()[pri:0, instance:com.ecommerceTesting.tests.ContactUsTest@2dc9b0f5]" started-at="2025-03-13T12:58:40 IST" name="testContactUs" finished-at="2025-03-13T12:58:58 IST" duration-ms="18247" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyProductDetails -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@2dc9b0f5]" started-at="2025-03-13T12:14:22 IST" name="teardown" finished-at="2025-03-13T12:14:23 IST" duration-ms="722" status="PASS">
+        </test-method> <!-- testContactUs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.ContactUsTest@2dc9b0f5]" started-at="2025-03-13T12:58:58 IST" name="teardown" finished-at="2025-03-13T12:59:01 IST" duration-ms="2259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@2dc9b0f5]" started-at="2025-03-13T12:14:23 IST" name="setup" finished-at="2025-03-13T12:14:28 IST" duration-ms="5295" status="PASS">
+      </class> <!-- com.ecommerceTesting.tests.ContactUsTest -->
+    </test> <!-- ContactUsTest -->
+    <test started-at="2025-03-13T12:58:33 IST" name="ProductTest" finished-at="2025-03-13T12:59:23 IST" duration-ms="50822">
+      <class name="com.ecommerceTesting.tests.ProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@74f6c5d8]" started-at="2025-03-13T12:58:33 IST" name="setup" finished-at="2025-03-13T12:58:47 IST" duration-ms="14030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearchedProduct()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@2dc9b0f5]" started-at="2025-03-13T12:14:28 IST" name="verifySearchedProduct" finished-at="2025-03-13T12:14:34 IST" duration-ms="5553" status="PASS">
+        <test-method signature="verifyProductDetails()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@74f6c5d8]" started-at="2025-03-13T12:58:47 IST" name="verifyProductDetails" finished-at="2025-03-13T12:59:02 IST" duration-ms="14946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@74f6c5d8]" started-at="2025-03-13T12:59:02 IST" name="teardown" finished-at="2025-03-13T12:59:04 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@74f6c5d8]" started-at="2025-03-13T12:59:04 IST" name="setup" finished-at="2025-03-13T12:59:08 IST" duration-ms="3621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchedProduct()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@74f6c5d8]" started-at="2025-03-13T12:59:08 IST" name="verifySearchedProduct" finished-at="2025-03-13T12:59:23 IST" duration-ms="15299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchedProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@2dc9b0f5]" started-at="2025-03-13T12:14:34 IST" name="teardown" finished-at="2025-03-13T12:14:34 IST" duration-ms="412" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.ProductTest@74f6c5d8]" started-at="2025-03-13T12:59:23 IST" name="teardown" finished-at="2025-03-13T12:59:23 IST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ecommerceTesting.tests.ProductTest -->
     </test> <!-- ProductTest -->
-    <test started-at="2025-03-13T12:14:20 IST" name="CartTest" finished-at="2025-03-13T12:14:53 IST" duration-ms="32739">
-      <class name="com.ecommerceTesting.tests.CartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.CartTest@791d1f8b]" started-at="2025-03-13T12:14:20 IST" name="setup" finished-at="2025-03-13T12:14:27 IST" duration-ms="6717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testAddToCart()[pri:0, instance:com.ecommerceTesting.tests.CartTest@791d1f8b]" started-at="2025-03-13T12:14:27 IST" name="testAddToCart" finished-at="2025-03-13T12:14:37 IST" duration-ms="10191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddToCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.CartTest@791d1f8b]" started-at="2025-03-13T12:14:37 IST" name="teardown" finished-at="2025-03-13T12:14:37 IST" duration-ms="371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.CartTest@791d1f8b]" started-at="2025-03-13T12:14:37 IST" name="setup" finished-at="2025-03-13T12:14:44 IST" duration-ms="6498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCart()[pri:0, instance:com.ecommerceTesting.tests.CartTest@791d1f8b]" started-at="2025-03-13T12:14:44 IST" name="verifyCart" finished-at="2025-03-13T12:14:52 IST" duration-ms="8761" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.CartTest@791d1f8b]" started-at="2025-03-13T12:14:52 IST" name="teardown" finished-at="2025-03-13T12:14:53 IST" duration-ms="184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ecommerceTesting.tests.CartTest -->
-    </test> <!-- CartTest -->
-    <test started-at="2025-03-13T12:13:55 IST" name="SignUpTest" finished-at="2025-03-13T12:14:59 IST" duration-ms="63931">
+    <test started-at="2025-03-13T12:58:33 IST" name="SignUpTest" finished-at="2025-03-13T12:59:40 IST" duration-ms="67175">
       <class name="com.ecommerceTesting.tests.SignupTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:13:56 IST" name="setup" finished-at="2025-03-13T12:14:01 IST" duration-ms="5306" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:58:33 IST" name="setup" finished-at="2025-03-13T12:58:45 IST" duration-ms="12790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AccountCreationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:14:01 IST" name="AccountCreationTest" data-provider="accountCreationData" finished-at="2025-03-13T12:14:37 IST" duration-ms="36167" status="PASS">
+        <test-method signature="AccountCreationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:58:45 IST" name="AccountCreationTest" data-provider="accountCreationData" finished-at="2025-03-13T12:59:12 IST" duration-ms="26579" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -172,43 +144,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountCreationTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:14:37 IST" name="teardown" finished-at="2025-03-13T12:14:37 IST" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:59:12 IST" name="teardown" finished-at="2025-03-13T12:59:15 IST" duration-ms="2999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:14:37 IST" name="setup" finished-at="2025-03-13T12:14:49 IST" duration-ms="11495" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:59:15 IST" name="setup" finished-at="2025-03-13T12:59:22 IST" duration-ms="7148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSignupWithExistingEmail()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:14:49 IST" name="testSignupWithExistingEmail" finished-at="2025-03-13T12:14:55 IST" duration-ms="5837" status="PASS">
+        <test-method signature="testSignupWithExistingEmail()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:59:22 IST" name="testSignupWithExistingEmail" finished-at="2025-03-13T12:59:32 IST" duration-ms="9848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupWithExistingEmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:14:55 IST" name="teardown" finished-at="2025-03-13T12:14:55 IST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:59:32 IST" name="teardown" finished-at="2025-03-13T12:59:34 IST" duration-ms="1854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:14:55 IST" name="setup" finished-at="2025-03-13T12:14:59 IST" duration-ms="4458" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:59:34 IST" name="setup" finished-at="2025-03-13T12:59:36 IST" duration-ms="2490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomePage()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:14:59 IST" name="verifyHomePage" finished-at="2025-03-13T12:14:59 IST" duration-ms="35" status="PASS">
+        <test-method signature="verifyHomePage()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:59:36 IST" name="verifyHomePage" finished-at="2025-03-13T12:59:39 IST" duration-ms="2492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@700fb871]" started-at="2025-03-13T12:14:59 IST" name="teardown" finished-at="2025-03-13T12:14:59 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.SignupTest@2f67a4d3]" started-at="2025-03-13T12:59:39 IST" name="teardown" finished-at="2025-03-13T12:59:40 IST" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ecommerceTesting.tests.SignupTest -->
     </test> <!-- SignUpTest -->
-    <test started-at="2025-03-13T12:13:55 IST" name="LoginTest" finished-at="2025-03-13T12:15:01 IST" duration-ms="65315">
-      <class name="com.ecommerceTesting.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:13:56 IST" name="setup" finished-at="2025-03-13T12:14:09 IST" duration-ms="12721" status="PASS">
+    <test started-at="2025-03-13T12:59:00 IST" name="CartTest" finished-at="2025-03-13T12:59:42 IST" duration-ms="42021">
+      <class name="com.ecommerceTesting.tests.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.CartTest@7ba8c737]" started-at="2025-03-13T12:59:00 IST" name="setup" finished-at="2025-03-13T12:59:05 IST" duration-ms="5504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testValidLogin(java.util.HashMap)[pri:1, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:09 IST" name="testValidLogin" data-provider="getData" finished-at="2025-03-13T12:14:20 IST" duration-ms="11341" status="PASS">
+        <test-method signature="testAddToCart()[pri:0, instance:com.ecommerceTesting.tests.CartTest@7ba8c737]" started-at="2025-03-13T12:59:05 IST" name="testAddToCart" finished-at="2025-03-13T12:59:25 IST" duration-ms="19527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.CartTest@7ba8c737]" started-at="2025-03-13T12:59:25 IST" name="teardown" finished-at="2025-03-13T12:59:25 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.CartTest@7ba8c737]" started-at="2025-03-13T12:59:25 IST" name="setup" finished-at="2025-03-13T12:59:28 IST" duration-ms="3423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCart()[pri:0, instance:com.ecommerceTesting.tests.CartTest@7ba8c737]" started-at="2025-03-13T12:59:28 IST" name="verifyCart" finished-at="2025-03-13T12:59:41 IST" duration-ms="12919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.CartTest@7ba8c737]" started-at="2025-03-13T12:59:41 IST" name="teardown" finished-at="2025-03-13T12:59:42 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerceTesting.tests.CartTest -->
+    </test> <!-- CartTest -->
+    <test started-at="2025-03-13T12:58:33 IST" name="LoginTest" finished-at="2025-03-13T12:59:51 IST" duration-ms="78777">
+      <class name="com.ecommerceTesting.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:58:33 IST" name="setup" finished-at="2025-03-13T12:58:47 IST" duration-ms="13951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin(java.util.HashMap)[pri:1, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:58:47 IST" name="testValidLogin" data-provider="getData" finished-at="2025-03-13T12:58:57 IST" duration-ms="10212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,15 +219,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:20 IST" name="teardown" finished-at="2025-03-13T12:14:20 IST" duration-ms="468" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:58:57 IST" name="teardown" finished-at="2025-03-13T12:58:58 IST" duration-ms="675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:20 IST" name="setup" finished-at="2025-03-13T12:14:26 IST" duration-ms="5760" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:58:58 IST" name="setup" finished-at="2025-03-13T12:59:01 IST" duration-ms="3610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testValidLogin(java.util.HashMap)[pri:1, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:26 IST" name="testValidLogin" data-provider="getData" finished-at="2025-03-13T12:14:36 IST" duration-ms="9840" status="PASS">
+        <test-method signature="testValidLogin(java.util.HashMap)[pri:1, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:59:01 IST" name="testValidLogin" data-provider="getData" finished-at="2025-03-13T12:59:18 IST" duration-ms="17034" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,35 +238,77 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:36 IST" name="teardown" finished-at="2025-03-13T12:14:36 IST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:59:18 IST" name="teardown" finished-at="2025-03-13T12:59:23 IST" duration-ms="4275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:36 IST" name="setup" finished-at="2025-03-13T12:14:38 IST" duration-ms="2025" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:59:23 IST" name="setup" finished-at="2025-03-13T12:59:28 IST" duration-ms="5430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testInvalidLogin()[pri:2, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:38 IST" name="testInvalidLogin" finished-at="2025-03-13T12:14:47 IST" duration-ms="8713" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:59:28 IST" name="testInvalidLogin" finished-at="2025-03-13T12:59:36 IST" duration-ms="7475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:47 IST" name="teardown" finished-at="2025-03-13T12:14:47 IST" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:59:36 IST" name="teardown" finished-at="2025-03-13T12:59:36 IST" duration-ms="473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:47 IST" name="setup" finished-at="2025-03-13T12:14:52 IST" duration-ms="4543" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:59:36 IST" name="setup" finished-at="2025-03-13T12:59:42 IST" duration-ms="6150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logOutUser()[pri:4, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:14:52 IST" name="logOutUser" finished-at="2025-03-13T12:15:01 IST" duration-ms="9075" status="PASS">
+        <test-method signature="logOutUser()[pri:4, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:59:42 IST" name="logOutUser" finished-at="2025-03-13T12:59:51 IST" duration-ms="8954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutUser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@e25951c]" started-at="2025-03-13T12:15:01 IST" name="teardown" finished-at="2025-03-13T12:15:01 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.LoginTest@4b2c5e02]" started-at="2025-03-13T12:59:51 IST" name="teardown" finished-at="2025-03-13T12:59:51 IST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ecommerceTesting.tests.LoginTest -->
     </test> <!-- LoginTest -->
+    <test started-at="2025-03-13T12:59:01 IST" name="CheckOutTest" finished-at="2025-03-13T13:00:16 IST" duration-ms="75435">
+      <class name="com.ecommerceTesting.tests.CheckOutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.CheckOutTest@3336e6b6]" started-at="2025-03-13T12:59:01 IST" name="setup" finished-at="2025-03-13T12:59:07 IST" duration-ms="6162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckout(java.util.HashMap)[pri:0, instance:com.ecommerceTesting.tests.CheckOutTest@3336e6b6]" started-at="2025-03-13T12:59:07 IST" name="testCheckout" data-provider="getCardDetails" finished-at="2025-03-13T12:59:47 IST" duration-ms="39681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cvc=1233, expMonth=12, nameOnCard=Nikhil Bhosale, expYear=2026, cardNumber=1234567890}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.CheckOutTest@3336e6b6]" started-at="2025-03-13T12:59:47 IST" name="teardown" finished-at="2025-03-13T12:59:47 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerceTesting.tests.CheckOutTest@3336e6b6]" started-at="2025-03-13T12:59:47 IST" name="setup" finished-at="2025-03-13T12:59:51 IST" duration-ms="4692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckout(java.util.HashMap)[pri:0, instance:com.ecommerceTesting.tests.CheckOutTest@3336e6b6]" started-at="2025-03-13T12:59:51 IST" name="testCheckout" data-provider="getCardDetails" finished-at="2025-03-13T13:00:16 IST" duration-ms="24504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cvc=1346, expMonth=7, nameOnCard=Jane Smith, expYear=2030, cardNumber=765432232323}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerceTesting.tests.CheckOutTest@3336e6b6]" started-at="2025-03-13T13:00:16 IST" name="teardown" finished-at="2025-03-13T13:00:16 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerceTesting.tests.CheckOutTest -->
+    </test> <!-- CheckOutTest -->
   </suite> <!-- Suite -->
 </testng-results>
