@@ -18,7 +18,7 @@ public class LandingPage {
 	@FindBy(xpath = "//a[contains(text(),'Home')]")
 	WebElement homeBtn;
 
-	@FindBy(xpath = "//a[contains(text(),' Signup / Login')]")
+	@FindBy(xpath = "//a[@href='/login']")
 	WebElement signupLoginBtn;
 
 	@FindBy(xpath = "//a[contains(text(),'Delete Account')]")
@@ -30,13 +30,13 @@ public class LandingPage {
 	@FindBy(xpath = "//a[contains(text(),'Logout')]")
 	WebElement logoutBtn;
 
-	@FindBy(xpath = "//a[contains(text(),'Contact us')]")
+	@FindBy(xpath = "a[@href='/contact_us']")
 	WebElement ContactUsButton;
 	
-	@FindBy(xpath = "//a[contains(text(), 'Products')]")
+	@FindBy(xpath = "//a[@href='/products']")
 	WebElement  productsBtn;
 	 
-	@FindBy(xpath = "//a[contains(text(), 'Cart')]")
+	@FindBy(xpath = "//li/a[@href='/view_cart']")
 	WebElement cartBtn; 
 	
 	@FindBy(css = ".single-widget h2")
