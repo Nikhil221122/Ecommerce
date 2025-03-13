@@ -30,7 +30,7 @@ public class LandingPage {
 	@FindBy(xpath = "//a[contains(text(),'Logout')]")
 	WebElement logoutBtn;
 
-	@FindBy(xpath = "a[@href='/contact_us']")
+	@FindBy(xpath = "//a[@href='/contact_us']")
 	WebElement ContactUsButton;
 	
 	@FindBy(xpath = "//a[@href='/products']")
