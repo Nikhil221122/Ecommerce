@@ -35,7 +35,7 @@ public class LandingPage {
 	
 	@FindBy(xpath = "//a[contains(text(), 'Products')]")
 	WebElement  productsBtn;
-	
+	 
 	@FindBy(xpath = "//a[contains(text(), 'Cart')]")
 	WebElement cartBtn;
 	
