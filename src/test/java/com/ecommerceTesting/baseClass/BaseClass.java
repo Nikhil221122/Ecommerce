@@ -32,7 +32,7 @@ public class BaseClass {
         if (browserName.contains("chrome")) {
 		    WebDriverManager.chromedriver().setup();
 		    ChromeOptions options = new ChromeOptions();
-		    options.addArguments("--window-size=1920,1080");
+//		    options.addArguments("--window-size=1920,1080");
 		    options.addArguments("--headless");
 		    driver = new ChromeDriver(options);
 		} else if (browserName.equalsIgnoreCase("edge")) {
@@ -42,7 +42,7 @@ public class BaseClass {
 
         if (driver != null) {
             driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         }
         return driver;
     }
