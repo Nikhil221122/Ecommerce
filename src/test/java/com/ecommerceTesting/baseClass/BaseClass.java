@@ -24,7 +24,7 @@ public class BaseClass {
     public WebDriver initializeDriver() throws IOException {
         prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
-                + "\\src\\main\\java\\ecommercetesting\\Resources\\GlobalData.properties");
+                + "\\src\\main\\java\\com\\ecommercetesting\\resources\\GlobalData.properties");
         prop.load(fis);
 
         String browserName = prop.getProperty("browser");

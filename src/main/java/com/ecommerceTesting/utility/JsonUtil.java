@@ -14,7 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class JsonUtil {
 	public static List<HashMap<String, String>> getJsonDataToLogin() throws IOException {
 		String jsonContent = FileUtils.readFileToString(new File(
-				System.getProperty("user.dir") + "\\src\\main\\java\\ecommercetesting\\Resources\\loginData.json"),
+				System.getProperty("user.dir") + "\\src\\main\\java\\com\\ecommercetesting\\Resources\\loginData.json"),
 				StandardCharsets.UTF_8);
 		ObjectMapper mapper = new ObjectMapper();
 		List<HashMap<String, String>> data = mapper.readValue(jsonContent,
@@ -25,7 +25,7 @@ public class JsonUtil {
 	}
 	
 	public static List<HashMap<String, String>> cardDetails() throws IOException {
-		String jsonContent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"\\src\\main\\java\\ecommercetesting\\Resources\\cardDetails.json"),StandardCharsets.UTF_8);
+		String jsonContent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"\\src\\main\\java\\com\\ecommercetesting\\Resources\\cardDetails.json"),StandardCharsets.UTF_8);
 		ObjectMapper mapper = new ObjectMapper();
 		List<HashMap<String, String>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String,String>>>(){});
 	

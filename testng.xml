@@ -2,48 +2,48 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="5">
     <listeners>
-        <listener class-name="ecommercetesting.Listeners.TestListener" />
+        <listener class-name="com.ecommerceTesting.listeners.TestListener" />
     </listeners>
 
     <test name="SignUpTest">
         <classes>
-            <class name="ecommercetesting.tests.SignupTest" />
+            <class name="com.ecommerceTesting.tests.SignupTest" />
         </classes>
     </test>
 
     <test name="LoginTest">
         <classes>
-            <class name="ecommercetesting.tests.LoginTest" />
+            <class name="com.ecommerceTesting.tests.LoginTest" />
         </classes>
     </test>
 
     <test name="ContactUsTest">
         <classes>
-            <class name="ecommercetesting.tests.ContactUsTest" />
+            <class name="com.ecommerceTesting.tests.ContactUsTest" />
         </classes>
     </test>
 
     <test name="ProductTest">
         <classes>
-            <class name="ecommercetesting.tests.ProductTest" />
+            <class name="com.ecommerceTesting.tests.ProductTest" />
         </classes>
     </test>
 
     <test name="LandingPageTest">
         <classes>
-            <class name="ecommercetesting.tests.LandingPageTest" />
+            <class name="com.ecommerceTesting.tests.LandingPageTest" />
         </classes>
     </test>
 
     <test name="CartTest">
         <classes>
-            <class name="ecommercetesting.tests.CartTest" />
+            <class name="com.ecommerceTesting.tests.CartTest" />
         </classes>
     </test>
 
     <test name="CheckOutTest">
         <classes>
-            <class name="ecommercetesting.tests.CheckOutTest" />
+            <class name="com.ecommerceTesting.tests.CheckOutTest" />
         </classes>
     </test>
 </suite>

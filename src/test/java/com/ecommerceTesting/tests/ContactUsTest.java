@@ -12,7 +12,7 @@ public class ContactUsTest extends BaseClass {
 	
 	String Subject = "Regarding Automation Testing";
 	String message = "This is the first line.\nThis is the second line.\nThis is the third line.";
-	String filepath= System.getProperty("user.dir")+"\\src\\main\\java\\ecommercetesting\\Resources\\demo.txt";
+	String filepath= System.getProperty("user.dir")+"\\src\\main\\java\\com\\ecommercetesting\\resources\\demo.txt";
 	
 	 @Test
 	 public void testContactUs() {

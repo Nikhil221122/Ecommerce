@@ -2,63 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="ecommercetesting.Listeners.TestListener"/>
+    <listener class-name="com.ecommerceTesting.listeners.TestListener"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="ContactUsTest(failed)">
     <classes>
-      <class name="ecommercetesting.tests.ContactUsTest">
+      <class name="com.ecommerceTesting.tests.ContactUsTest">
         <methods>
-          <include name="testContactUs"/>
           <include name="teardown"/>
           <include name="setup"/>
+          <include name="testContactUs"/>
         </methods>
-      </class> <!-- ecommercetesting.tests.ContactUsTest -->
+      </class> <!-- com.ecommerceTesting.tests.ContactUsTest -->
     </classes>
   </test> <!-- ContactUsTest(failed) -->
-  <test thread-count="5" parallel="tests" name="CartTest(failed)">
-    <classes>
-      <class name="ecommercetesting.tests.CartTest">
-        <methods>
-          <include name="verifyCart"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- ecommercetesting.tests.CartTest -->
-    </classes>
-  </test> <!-- CartTest(failed) -->
-  <test thread-count="5" parallel="tests" name="LoginTest(failed)">
-    <classes>
-      <class name="ecommercetesting.tests.LoginTest">
-        <methods>
-          <include name="testInvalidLogin"/>
-          <include name="testValidLogin"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="logOutUser"/>
-        </methods>
-      </class> <!-- ecommercetesting.tests.LoginTest -->
-    </classes>
-  </test> <!-- LoginTest(failed) -->
-  <test thread-count="5" parallel="tests" name="CheckOutTest(failed)">
-    <classes>
-      <class name="ecommercetesting.tests.CheckOutTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="testCheckout"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- ecommercetesting.tests.CheckOutTest -->
-    </classes>
-  </test> <!-- CheckOutTest(failed) -->
-  <test thread-count="5" parallel="tests" name="SignUpTest(failed)">
-    <classes>
-      <class name="ecommercetesting.tests.SignupTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="AccountCreationTest" invocation-numbers="0"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- ecommercetesting.tests.SignupTest -->
-    </classes>
-  </test> <!-- SignUpTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

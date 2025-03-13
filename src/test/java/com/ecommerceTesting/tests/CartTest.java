@@ -16,7 +16,7 @@ public class CartTest extends BaseClass {
 	String product1 = "Colour Blocked Shirt – Sky Blue";
 	String product2 = "Stylish Dress";
 
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void testAddToCart() {
 		productsPage = landingPage.clickOnProducts();
 		productsPage.addToCart(product1);
