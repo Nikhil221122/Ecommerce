@@ -70,9 +70,10 @@ public class ProductsPage{
 	}
 
 	public void addToCart(String productName) {
-		WaitUtil.waitForElementToBeVisible(driver, addToCartBtn);
-		WebElement prodName = getProductByName(productName);
-		prodName.findElement(addToCartBtn).click();
+		
+		WebElement prodName = getProductByName(productName).findElement(addToCartBtn);
+		WaitUtil.waitForElementToBeVisible(driver, prodName);
+		prodName.click();
 	}
 
 	public void clickOnContinueBtn() {

@@ -1,6 +1,5 @@
 package com.ecommerceTesting.pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -42,7 +41,6 @@ public class SignupPage {
 	@FindBy(xpath = "//div[@class='login-form']/form/p")
 	WebElement invalidCredentialsMsg;
 
-	By invalidCredMsg = By.xpath("//div[@class='login-form']/form/p");
 
 	public SignupPage(WebDriver driver) {
 		this.driver = driver;
@@ -82,7 +80,7 @@ public class SignupPage {
 	}
 
 	public String loginErrormsgIsDisplayed() {
-		WaitUtil.waitForElementToBeVisible(driver, invalidCredMsg);
+		WaitUtil.waitForElementToBeVisible(driver, invalidCredentialsMsg);
 		return invalidCredentialsMsg.getText();
 	}
 	
