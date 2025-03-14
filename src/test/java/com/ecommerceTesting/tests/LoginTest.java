@@ -20,8 +20,8 @@ public class LoginTest extends BaseClass {
 		List<HashMap<String, String>> data = JsonUtil.getJsonDataToLogin();
 		return new Object[][] { { data.get(0) }, { data.get(1) } };
 	}
-
-	@Test(priority = 1, dataProvider = "getData",retryAnalyzer = RetryAnalyzer.class)
+	
+	@Test(priority = 1, dataProvider = "getData",retryAnalyzer = com.ecommerceTesting.listeners.RetryAnalyzer.class)
 	public void testValidLogin(HashMap<String, String> input) {
 		signuppage = landingPage.clickSignupLogin();
 		Assert.assertTrue(signuppage.isLoginToAccountVisible());
