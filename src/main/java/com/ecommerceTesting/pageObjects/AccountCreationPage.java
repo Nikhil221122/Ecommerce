@@ -1,6 +1,5 @@
 package com.ecommerceTesting.pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,7 +11,6 @@ import com.ecommerceTesting.utility.WaitUtil;
 public class AccountCreationPage {
 	WebDriver driver;
 	AccountConfirmationPage accountconfirmationpage;
-	By RadioButton = By.id("id_gender1");
 	
 	@FindBy(id = "id_gender1")
 	private WebElement genderMaleRadioButton;
@@ -71,7 +69,7 @@ public class AccountCreationPage {
 	public void fillAccountDetails(String password, String day, String month, String year, String firstName,
 			String lastName, String address, String state, String city, String zipcode, String mobileNumber) {
 // Gender Selection
-		WaitUtil.waitForElementToBeVisible(driver,RadioButton );
+		WaitUtil.waitForElementToBeVisible(driver,genderMaleRadioButton );
 		genderMaleRadioButton.click();
 
 // Password

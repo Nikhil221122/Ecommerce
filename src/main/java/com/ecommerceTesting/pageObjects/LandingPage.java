@@ -56,29 +56,34 @@ public class LandingPage {
 	WebElement carousel;
 	
 	By subSuccessAlert = By.cssSelector(".alert-success.alert");
-	
+	By signUpLogin = By.xpath("//a[@href='/login']");
 	public LandingPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-	}
+	}	
 
 	public SignupPage clickSignupLogin() {
+		WaitUtil.waitForElementToBeVisible(driver, signupLoginBtn);
 		signupLoginBtn.click();
 		signuppage = new SignupPage(driver);
 		return signuppage;
 	}
 
 	public void clickOnLogoutbtn() {
+		WaitUtil.waitForElementToBeVisible(driver, logoutBtn);
 		logoutBtn.click();
 	}
 
 	public ContactUsPage clickOnContactUs() {
+		
+		WaitUtil.waitForElementToBeVisible(driver, ContactUsButton);
 		ContactUsButton.click();
 		contactUsPage = new ContactUsPage(driver);
 		return contactUsPage;
 	}
 	
 	public CartPage clickOnCart() {
+		WaitUtil.waitForElementToBeVisible(driver, cartBtn);
 		cartBtn.click();
 		cartPage = new CartPage(driver);
 		return cartPage;
@@ -98,6 +103,7 @@ public class LandingPage {
 	}
 	
 	public ProductsPage clickOnProducts() {
+		WaitUtil.waitForElementToBeVisible(driver, productsBtn);
 		productsBtn.click();
 		productsPage = new ProductsPage(driver);
 		return productsPage;
@@ -108,7 +114,7 @@ public class LandingPage {
 		subscriptionTxt.isDisplayed();
 		subEmail.sendKeys(email);
 		subBtn.click();
-		WaitUtil.waitForElementToBeVisible(driver, subSuccessAlert);
+		WaitUtil.waitForElementToBeVisible(driver, subSuccessTxt);
 		return subSuccessTxt.isDisplayed();
 	}
 	
