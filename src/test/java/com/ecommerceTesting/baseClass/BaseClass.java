@@ -33,7 +33,6 @@ public class BaseClass {
 		    WebDriverManager.chromedriver().setup();
 		    ChromeOptions options = new ChromeOptions();
 //		    options.addArguments("--window-size=1920,1080");
-//		    options.addArguments("--headless");
 		    driver = new ChromeDriver(options);
 		} else if (browserName.equalsIgnoreCase("edge")) {
 		    EdgeOptions options = new EdgeOptions();
