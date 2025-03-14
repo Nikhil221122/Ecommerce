@@ -38,7 +38,7 @@ public class BaseClass {
 		} else if (browserName.equalsIgnoreCase("edge")) {
 		    EdgeOptions options = new EdgeOptions();
 		    driver = new EdgeDriver(options);
-		}
+		} 
 
         if (driver != null) {
             driver.manage().window().maximize();
