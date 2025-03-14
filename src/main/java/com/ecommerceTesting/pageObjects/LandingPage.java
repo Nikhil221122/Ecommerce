@@ -1,6 +1,7 @@
 package com.ecommerceTesting.pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -83,10 +84,15 @@ public class LandingPage {
 	}
 	
 	public CartPage clickOnCart() {
-		WaitUtil.waitForElementToBeVisible(driver, cartBtn);
-		cartBtn.click();
-		cartPage = new CartPage(driver);
-		return cartPage;
+		 try {
+		        WaitUtil.waitForElementToBeVisible(driver, cartBtn);
+		        cartBtn.click();
+		    } catch (StaleElementReferenceException e) {
+		        System.out.println("StaleElementReferenceException caught, re-locating cartBtn...");
+		        cartBtn = driver.findElement(By.xpath("//a[@href='/view_cart']")); // Re-locate
+		        cartBtn.click();
+		    }
+		    return new CartPage(driver);
 	}
 
 	public boolean isHomePageVisible() {
