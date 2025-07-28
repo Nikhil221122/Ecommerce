@@ -3,6 +3,8 @@ package com.ecommerceTesting.baseClass;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -32,6 +34,11 @@ public class BaseClass {
         if (browserName.contains("chrome")) {
 		    WebDriverManager.chromedriver().setup();
 		    ChromeOptions options = new ChromeOptions();
+		    Map<String, Object> prefs = new HashMap<>();
+		    prefs.put("profile.password_manager_leak_detection", false);
+		    prefs.put("profile.credentials_enable_service", false);
+//		    options.addArguments("--incognito");  
+		    options.setExperimentalOption("prefs", prefs);
 //		    options.addArguments("--window-size=1920,1080"); 
 		    
 		    driver = new ChromeDriver(options);
