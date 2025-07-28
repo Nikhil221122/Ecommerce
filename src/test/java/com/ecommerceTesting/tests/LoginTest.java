@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 import com.ecommerceTesting.baseClass.BaseClass;
 import com.ecommerceTesting.pageObjects.SignupPage;
 import com.ecommerceTesting.utility.JsonUtil;
-import com.ecommerceTesting.listeners.RetryAnalyzer;
 public class LoginTest extends BaseClass {
 	SignupPage signuppage;
 
