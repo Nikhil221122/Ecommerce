@@ -41,7 +41,7 @@ public class BaseClass {
 //            WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 
-			options.addArguments("--incognito");
+			options.addArguments("--headless");
 			options.addArguments("--disable-popup-blocking");
 			options.addArguments("--disable-notifications");
 			options.addArguments("--disable-features=OptimizationGuideDaemon,OptimizationHints");
