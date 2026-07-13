@@ -1,48 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="5">
-    <listeners>
-        <listener class-name="com.ecommerceTesting.listeners.TestListener" />
-    </listeners>
+	<listeners>
+		<listener class-name="com.ecommerceTesting.listeners.TestListener" />
+	</listeners>
 
-   
-    <test name="LoginTest">
-        <classes>
-            <class name="com.ecommerceTesting.tests.LoginTest" />
-        </classes>
-    </test>
- <test name="SignUpTest">
-        <classes>
-            <class name="com.ecommerceTesting.tests.SignupTest" />
-        </classes>
-    </test>
-    <test name="ContactUsTest">
-        <classes>
-            <class name="com.ecommerceTesting.tests.ContactUsTest" />
-        </classes>
-    </test>
 
-    <test name="ProductTest">
-        <classes>
-            <class name="com.ecommerceTesting.tests.ProductTest" />
-        </classes>
-    </test>
+	<test name="LoginTest_chrome">
+	<!--<parameter name="browser" value="chrome"></parameter>-->
+		<classes>
+			<class name="com.ecommerceTesting.tests.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name="LoginTest_edge">
+		<!-- <parameter name="browser" value="edge"></parameter>-->
+		<classes>
+			<class name="com.ecommerceTesting.tests.LoginTest" />
+		</classes>
+	</test>
+	<!-- <test name="SignUpTest">
+		<classes>
+			<class name="com.ecommerceTesting.tests.SignupTest" />
+		</classes>
+	</test>
+	<test name="ContactUsTest">
+		<classes>
+			<class name="com.ecommerceTesting.tests.ContactUsTest" />
+		</classes>
+	</test>
 
-    <test name="LandingPageTest">
-        <classes>
-            <class name="com.ecommerceTesting.tests.LandingPageTest" />
-        </classes>
-    </test>
+	<test name="ProductTest">
+		<classes>
+			<class name="com.ecommerceTesting.tests.ProductTest" />
+		</classes>
+	</test>
 
-    <test name="CartTest">
-        <classes>
-            <class name="com.ecommerceTesting.tests.CartTest" />
-        </classes>
-    </test>
+	<test name="LandingPageTest">
+		<classes>
+			<class name="com.ecommerceTesting.tests.LandingPageTest" />
+		</classes>
+	</test>
 
-    <test name="CheckOutTest">
-        <classes>
-            <class name="com.ecommerceTesting.tests.CheckOutTest" />
-        </classes>
-    </test>
+	<test name="CartTest">
+		<classes>
+			<class name="com.ecommerceTesting.tests.CartTest" />
+		</classes>
+	</test>
+
+	<test name="CheckOutTest">
+		<classes>
+			<class name="com.ecommerceTesting.tests.CheckOutTest" />
+		</classes>
+	</test>-->
 </suite>

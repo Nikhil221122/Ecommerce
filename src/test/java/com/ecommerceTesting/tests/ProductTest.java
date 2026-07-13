@@ -13,13 +13,13 @@ public class ProductTest extends BaseClass {
 	ProductsPage productsPage;
 	ProductDetailsPage productDetailsPage;
 	ProductSearchPage productSearchPage;
-	String Url = "https://www.automationexercise.com/product_details/30";
-	String productName = "Premium Polo T-Shirts";
+	String Url = "https://www.automationexercise.com/product_details/1";
+	String productName = "Blue Top";
 
 	@Test(enabled = true)
 	public void verifyProductDetails() throws InterruptedException {
 		productsPage = landingPage.clickOnProducts();
-		Assert.assertTrue(productsPage.verifyProcutDisplayed());
+		Assert.assertTrue(productsPage.verifyProdcutDisplayed());
 		productDetailsPage = productsPage.viewProduct(productName);
 		Assert.assertEquals(productDetailsPage.isProductDetailsPageDisplayed(), Url);
 		Assert.assertTrue(productDetailsPage.areDetailsVisible());

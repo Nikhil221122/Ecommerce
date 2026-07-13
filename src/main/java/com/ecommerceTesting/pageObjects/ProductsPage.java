@@ -46,7 +46,7 @@ public class ProductsPage{
 		
 	}
 
-	public boolean verifyProcutDisplayed() {
+	public boolean verifyProdcutDisplayed() {
 		if (products.isEmpty()) {
 			return false;
 		}
@@ -73,6 +73,7 @@ public class ProductsPage{
 		
 		WebElement prodName = getProductByName(productName).findElement(addToCartBtn);
 		WaitUtil.waitForElementToBeVisible(driver, prodName);
+		WaitUtil.waitForElementToBeClickable(driver, addToCartBtn);
 		prodName.click();
 	}
 

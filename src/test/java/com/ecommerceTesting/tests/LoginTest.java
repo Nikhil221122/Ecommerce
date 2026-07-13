@@ -14,13 +14,13 @@ import com.ecommerceTesting.utility.JsonUtil;
 public class LoginTest extends BaseClass {
 	SignupPage signuppage;
 
-	@DataProvider
+	@DataProvider 
 	public Object[][] getData() throws IOException {
 		List<HashMap<String, String>> data = JsonUtil.getJsonDataToLogin();
 		return new Object[][] { { data.get(0) }, { data.get(1) } };
 	}
 	
-	@Test(priority = 1, dataProvider = "getData",retryAnalyzer = com.ecommerceTesting.listeners.RetryAnalyzer.class)
+	@Test(priority = 1, dataProvider = "getData",retryAnalyzer = com.ecommerceTesting.listeners.RetryAnalyzer.class,enabled=true)
 	public void testValidLogin(HashMap<String, String> input) {
 		signuppage = landingPage.clickSignupLogin();
 		Assert.assertTrue(signuppage.isLoginToAccountVisible());
@@ -28,7 +28,7 @@ public class LoginTest extends BaseClass {
 		Assert.assertTrue(landingPage.isUserLoggedIn());
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2,enabled = true)
 	public void testInvalidLogin() {
 		signuppage= landingPage.clickSignupLogin();
 		signuppage.login("n21h8@nikhil.com", "Password123");
@@ -38,11 +38,11 @@ public class LoginTest extends BaseClass {
 	@Test(priority = 3, enabled = false)
 	public void testDeleteUser() {
 		signuppage = landingPage.clickSignupLogin();
-		signuppage.login("bhosale@bhosale", "12345678");
+		signuppage.login("bhosale@bhosale.com", "12345678");
 		landingPage.clickOnDelete();
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 4,enabled = false)
 	public void logOutUser() {
 		signuppage = landingPage.clickSignupLogin();
 		signuppage.login("bhosale@bhosale.com", "12345678");

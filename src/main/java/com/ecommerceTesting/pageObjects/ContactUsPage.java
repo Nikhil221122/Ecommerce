@@ -15,7 +15,7 @@ public class ContactUsPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(css = "input[name=\"name\"]")
+	@FindBy(css = "input[name='name']")
 	WebElement Name;
 	
 	@FindBy(css = "input[name=\"email\"]")
